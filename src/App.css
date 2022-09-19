@@ -1,38 +1,101 @@
+/* 
+@import '~antd/dist/antd.css';
+
+
+body {
+  background-color: rgb(49, 67, 87);
+}
+
+.user {
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.user-container {
+  background-color: white;
+  width: 40%;
+  display: flex;
+  justify-content: space-around;
+  margin: auto;
+  padding: 15px;
+  margin-top: 30px;
+  border-radius: 20px;
+  border: 1px solid transparent;
+}
+
+.user-container:hover {
+  border: 1px solid blue;
+  box-shadow: 0 0 20px 10px rgb(67, 118, 181);
+}
+
+.user-id {
+  font-size: 20px;
+}
+
+.user-message {
+  align-self: center;
+}
+
+.user-input {
+  display: flex;
+  flex-direction: row;
+  width: 35%;
+  margin: auto;
+}
+
 .App {
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.edit-icon {
+  font-size: 20px;
+  cursor: pointer;
+  color: green;
+  margin-right: 15px;
+  border: 1px solid green;
+  border-radius: 5px;
+  padding: 5px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+.edit-icon:hover {
   color: white;
+  border: 1px solid transparent;
+  background-color: green;
 }
 
-.App-link {
-  color: #61dafb;
+.delete-icon {
+  font-size: 20px;
+  color: red;
+  cursor: pointer;
+  border: 1px solid red;
+  border-radius: 5px;
+  padding: 5px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+.delete-icon:hover {
+  color: white;
+  border: 1px solid transparent;
+  background-color: red;
+}
+
+@media screen and (min-width: 320px) and (max-width: 532px) {
+  .user-input {
+    width: 80%;
   }
-  to {
-    transform: rotate(360deg);
+
+  .user-container {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
   }
+} */
+
+.row.main-row {
+  background-color: #ddd;  
+  margin: 10px; 
+  border: 5px solid #eee
 }
